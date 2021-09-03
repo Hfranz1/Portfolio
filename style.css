@@ -14,3 +14,16 @@ header {
     margin-right: 60px;
     margin-bottom: 50px;
 }
+.navbar_items ul {
+    display: flex;
+}
+.banner {
+    display: block;
+    height: 400px;
+    width: 100%;
+
+background-size: cover;
+background-color: pink;
+
+background-position: center;
+}
