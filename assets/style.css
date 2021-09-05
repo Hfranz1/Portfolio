@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 body{
     margin-left: 100px;
     margin-right: 100;
@@ -14,10 +19,15 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-between 5px;
+    
 }
 header h1 {
     height: 100px;
+    padding: 16px 6% 16px 0;
+}
+
+.about_me {
+    height: 20px;
     padding: 16px 6% 16px 0;
 }
 
@@ -25,6 +35,10 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    color: whitesmoke;
+    list-style: none;
 }
 
 .banner {
