@@ -3,27 +3,37 @@ body{
     margin-right: 100;
 }
 main {
-    background-color: lightpink;
+    background-color: gray;
 }
 header {
     height: 100px;
-    background-color: lightgray;
-}
-.navbar_items {
-    float: right;
-    margin-right: 60px;
-    margin-bottom: 50px;
-}
-.navbar_items ul {
+    padding: 16px 6% 16px 0;
+    box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+    background-color: gray;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     display: flex;
+    justify-content: space-between 5px;
 }
+header h1 {
+    height: 100px;
+    padding: 16px 6% 16px 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .banner {
     display: block;
     height: 400px;
     width: 100%;
 
 background-size: cover;
-background-color: pink;
+background-color: blue;
 
 background-position: center;
 }
