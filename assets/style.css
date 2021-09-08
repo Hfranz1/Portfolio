@@ -25,6 +25,13 @@ aside {
     flex-wrap: wrap;
     position: fixed;
 }
+#name-style {
+    font-size: 25px;
+    font-family: "sofia", sans-serif;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+}
 body{
     margin-left: 100px;
     margin-right: 100;
