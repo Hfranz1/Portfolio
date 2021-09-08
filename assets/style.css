@@ -39,7 +39,7 @@ main {
 section {
     border-bottom: solid rgba(112, 128, 144, 0.699) 1px;
 }
-.side_nav {
+.side_bar {
     margin-top: 2rem;
 }
 nav a {
