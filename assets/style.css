@@ -77,7 +77,18 @@ ul {
     transition: flex-basis 500ms linear;
     margin-bottom: 1.5rem;
 }
-
+.port-card {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 0 1 rem;
+    transition: all 0.5s ease-in-out;
+}
+.port-card .port-h2 {
+    position: relative;
+    margin: -4rem 0 1.5rem 0;
+    padding: 0.5rem 0rem;
+    transition: all 0.5s ease-in-out;
+}
 body{
     margin-left: 100px;
     margin-right: 100;
