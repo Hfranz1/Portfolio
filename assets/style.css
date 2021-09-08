@@ -49,6 +49,35 @@ nav a {
     color: whitesmoke;
     list-style-type: none;
 }
+ul {
+    list-style-type: none;
+    font-size: 25px;
+}
+.main-title {
+    margin-bottom: 1rem;
+}
+.about_me {
+    padding: 2rem 0;
+}
+#facts {
+    text-align: center;
+}
+.about_me > p {
+    padding: 2rem 5rem;
+} 
+.port-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2.5rem;
+    background-color: rgba(240,248,255, 0.513);
+}
+.portbox {
+    border: rgba(157, 190, 209, 0.52) solid 5px;
+    flex: 1 0 100%;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+}
+
 body{
     margin-left: 100px;
     margin-right: 100;
@@ -56,10 +85,7 @@ body{
 
 
 
-.about_me {
-    height: 20px;
-    padding: 16px 6% 16px 0;
-}
+
 .about_me h2 {
     flex-wrap: aside;
 }
