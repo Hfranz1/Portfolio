@@ -3,6 +3,28 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+header {
+    float: centers;
+    display: block;
+    
+}
+header h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+aside {
+    float: left;
+    background: linear-gradient(to bottom right, rgba(173, 129, 129, 0.842),rgba(157, 190, 209, 0.745));
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 12rem;
+    padding: 1rem;
+    background-color: rgba(240,248,255, 0.226);
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+}
 body{
     margin-left: 100px;
     margin-right: 100;
@@ -10,21 +32,7 @@ body{
 main {
     background-color: gray;
 }
-header {
-    height: 100px;
-    padding: 16px 6% 16px 0;
-    box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
-    background-color: gray;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    display: flex;
-    
-}
-header h1 {
-    height: 100px;
-    padding: 16px 6% 16px 0;
-}
+
 
 .about_me {
     height: 20px;
@@ -56,4 +64,8 @@ background-position: center;
 }
 .about_me {
     display: flex;
+}
+
+footer {
+
 }
