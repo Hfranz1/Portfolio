@@ -32,13 +32,28 @@ aside {
     display: flex;
     margin: 0 auto;
 }
+main {
+    width: 70%;
+    margin-left: 19.5rem;
+}
+section {
+    border-bottom: solid rgba(112, 128, 144, 0.699) 1px;
+}
+.side_nav {
+    margin-top: 2rem;
+}
+nav a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: whitesmoke;
+    list-style-type: none;
+}
 body{
     margin-left: 100px;
     margin-right: 100;
 }
-main {
-    background-color: gray;
-}
+
 
 
 .about_me {
@@ -49,15 +64,7 @@ main {
     flex-wrap: aside;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-decoration: none;
-    color: whitesmoke;
-    list-style: none;
-}
+
 
 .banner {
     display: block;
