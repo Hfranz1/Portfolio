@@ -1,9 +1,15 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+:root {
+    --light-color:rgb(245,200,235);
+    --dark-color: darkgray;
+    --flex-base-left: 0 0 15%
+    var(--flex-base-right: 0 0 85%)
 }
-
+//*:root {
+    --light-color: rgb(245, 200, 235);
+    --dark-color: rgba(47, 79, 79, 0.801);
+    --flex-basis-left: 0 0 15%;
+    --flex-basis-right: 0 0 85%;
+}*//
 header {
     float: centers;
     display: block;
@@ -102,3 +108,5 @@ ul {
             flex: 0 0 33.333%;
             max-width: 33.333%;
         }
+    }
+}
