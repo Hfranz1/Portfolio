@@ -7,14 +7,14 @@
 header {
     float: centers;
     display: block;
+    
 }
 header h1 {
     font-size: 40px;
     text-transform: uppercase;
 }
-nav {
-    display: inline-block;
-    vertical-align: top;
+aside {
+    float: left;
     background: linear-gradient(to bottom right, rgba(173, 129, 129, 0.842),rgba(157, 190, 209, 0.745));
     background-repeat: no-repeat;
     height: 100%;
@@ -80,7 +80,7 @@ ul {
     padding: 2rem 0 0 1 rem;
     transition: all 0.5s ease-in-out;
 }
-.port-card .port-h2 {
+.card .port-h2 {
     position: relative;
     margin: -4rem 0 1.5rem 0;
     padding: 0.5rem 0rem;
@@ -102,4 +102,3 @@ ul {
             flex: 0 0 33.333%;
             max-width: 33.333%;
         }
-    }
