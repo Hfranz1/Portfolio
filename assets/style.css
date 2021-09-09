@@ -106,7 +106,7 @@ div .work-left {
     flex-wrap: wrap;
     height: auto;
     flex-basis: 40%;
-    opacity: 9%;
+    opacity: 40%;
     margin: .5rem;
     padding: 0;
     border: solid 3px teal;
@@ -174,4 +174,94 @@ div .work-left {
     color: darkgray;
     padding: 1rem;
     text-transform: uppercase;
+}
+.contact-me {
+    background-color: darkgray;
+    padding: 20px 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex: left;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.links ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+@media screen and (max-width:980px) {
+    header nav {
+        float: none;
+        clear: left;
+        width: 100%;
+    }
+    .links {
+        float: none;
+    }
+    header nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    header nav ul li {
+        width: 20%;
+        padding: 0;
+        text-align: center;
+        margin: 0;
+    }
+    .main-img-resize {
+        width: 450px;
+        height: auto;
+    }
+    .contact-me {
+        display: block;
+        justify-self: center;
+        width: 100%;
+    }
+    .links1 {
+        flex: none;
+    }
+}
+@media screen and (max-width:700px) {
+    .main-img-resize {
+        width: 300px;
+        height: auto;
+    }
+    .img-box-resize {
+        width: 200px;
+        height: auto;
+    }
+    #work-parent .img-box, .img-box1 {
+        border: none;
+    }
+    #image-title1, #image-title2, #image-title3, #image-title4 {
+        display: none;
+    }
+    .links ul li {
+        margin-left: 0;
+        text-transform: uppercase;
+    }
+    .contact-me, .about_me, .align-left {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    div .work-left {
+        flex: 0 0 100%;
+    }
+    .work-left, .align-right {
+        border-left: none;
+    }
+    .about_me > p {
+        flex: 0 0 100%;
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .links ul li, .links1 ul li {
+        display: block;
+    }
+    header nac ul li, .links1{
+        width: 100%;
+    }
 }
