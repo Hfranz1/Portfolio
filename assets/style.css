@@ -19,7 +19,7 @@ header h1 {
     display: inline-block;
     font-size: 52px;
     background-color: teal;
-    color: rgb(47, 79,79);
+    color: white;
 }
 #name-style {
     font-family: 'Amatic SC', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
