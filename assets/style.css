@@ -67,5 +67,29 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
-
-
+.align-right {
+    border-left: teal solid 3px;
+}
+.about_me > p {
+    padding: 0 2rem;
+}
+.about_me h2 {
+    padding: 0 2rem;
+}
+div .work-left {
+    flex: right;
+}
+#work-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-box1 {
+    opacity: .7;
+    position: relative;
+    display: flex;
+    align-self: center;
+    border: solid 3px teal;
+    width: min-content;
+    height: auto;
+}
