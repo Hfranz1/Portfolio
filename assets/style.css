@@ -7,14 +7,14 @@
 header {
     float: centers;
     display: block;
-    
 }
 header h1 {
     font-size: 40px;
     text-transform: uppercase;
 }
-aside {
-    float: left;
+nav {
+    display: inline-block;
+    vertical-align: top;
     background: linear-gradient(to bottom right, rgba(173, 129, 129, 0.842),rgba(157, 190, 209, 0.745));
     background-repeat: no-repeat;
     height: 100%;
@@ -59,9 +59,6 @@ ul {
 .about_me {
     padding: 2rem 0;
 }
-#facts {
-    text-align: center;
-}
 .about_me > p {
     padding: 2rem 5rem;
 } 
@@ -71,7 +68,7 @@ ul {
     padding: 2.5rem;
     background-color: rgba(240,248,255, 0.513);
 }
-.portbox {
+.box {
     border: rgba(157, 190, 209, 0.52) solid 5px;
     flex: 1 0 100%;
     transition: flex-basis 500ms linear;
@@ -93,7 +90,7 @@ ul {
     max-width: 50%;
 }
 @media screen and (min-width: 768px) {
-    .portbox{
+    .box{
         flex: 0 0 50%;
         max-width: 50%;
     }
@@ -101,7 +98,7 @@ ul {
         .port-h2 {
             width: 50%;
         }
-        .portbox {
+        .box {
             flex: 0 0 33.333%;
             max-width: 33.333%;
         }
