@@ -1,24 +1,52 @@
-:root {
-    --light-color:rgb(245,200,235);
-    --dark-color: darkgray;
-    --flex-base-left: 0 0 15%
-    var(--flex-base-right: 0 0 85%)
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black
 }
-//*:root {
-    --light-color: rgb(245, 200, 235);
-    --dark-color: rgba(47, 79, 79, 0.801);
-    --flex-basis-left: 0 0 15%;
-    --flex-basis-right: 0 0 85%;
-}*//
+a {
+    text-decoration: underline;
+    color:blue
+}
 header {
-    float: centers;
-    display: block;
-    
+    background-color: darkgray;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    height: auto;
 }
 header h1 {
-    font-size: 40px;
+    display: inline-block;
+    font-size: 52px;
+    background-color: blue;
+    color: rgb(47, 79,79);
+}
+#name-style {
+    font-family: 'Amatic SC', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
+}
+.links{
+    padding-top: 1.5rem;
+    margin-right: 2rem;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Lucida Sans Unicode', 'lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.links ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 25px;
     text-transform: uppercase;
 }
+.hero {
+    height: 20rem;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: blue;
+    background-size: cover;
+    position: relative;
+}
+
+
 aside {
     float: left;
     background: linear-gradient(to bottom right, rgba(173, 129, 129, 0.842),rgba(157, 190, 209, 0.745));
@@ -55,10 +83,7 @@ nav a {
     color: whitesmoke;
     list-style-type: none;
 }
-ul {
-    list-style-type: none;
-    font-size: 25px;
-}
+
 .main-title {
     margin-bottom: 1rem;
 }
