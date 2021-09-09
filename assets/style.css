@@ -1,4 +1,9 @@
-
+:root {
+    --light-color: teal;
+    --dark-color: darkgray;
+    --flex-basis-left: 0 0 15%;
+    --flex-basis-right:0 0 85% ;
+}
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -13,7 +18,11 @@ header {
     padding: 20px;
     color: white;
     width: 100%;
-    height: auto;
+    height: 150px;
+    flex-direction: column;
+}
+.links-content {
+    float: right;
 }
 header h1 {
     display: inline-block;
@@ -41,7 +50,7 @@ header h1 {
     height: 20rem;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../assets/place_holder.png");
+    background-image: url("../assets/img-coffee-laptop.png");
     background-size: cover;
     position: relative;
 }
@@ -51,7 +60,7 @@ header h1 {
     bottom: .5rem;
     background-color: teal;
     font-style: italic;
-    color: darkgray;
+    color: white;
     padding: 1rem;
 }
 h2 {
@@ -62,9 +71,14 @@ h2 {
 .about_me {
     display: flex;
     flex-direction: row;
-    flex: left;
+    flex: var(--flex-basis-left);
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+}
+.align-left {
+    flex: var(--flex-basis-left);
+    text-align: right;
     align-items: center;
 }
 .align-right {
@@ -181,9 +195,18 @@ div .work-left {
     color: white;
     display: flex;
     flex-direction: row;
-    flex: left;
+    flex: var(--flex-basis-left);
     flex-wrap: wrap;
     align-items: center;
+    height: 200px;
+}
+.links1 {
+    text-align: right;
+    margin-bottom: auto;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    flex: var(--flex-basis-right);
 }
 .links ul li {
     display: inline-block;
