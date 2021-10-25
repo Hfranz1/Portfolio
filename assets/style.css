@@ -18,7 +18,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.3;
+    opacity: 0.1;
     z-index: -2;
 }
 header {
@@ -60,6 +60,7 @@ nav ul li {
     float: right;
     top: 10rem;
     background-color: teal;
+    color: white;
     width: fit-content;
     height: fit-content;
     font-size: 4rem;
@@ -126,190 +127,43 @@ h2 {
     padding-left: 0.9rem;
     padding-top: 0.9rem
 }
-a {
-    text-decoration: underline;
+#img-1 {
+    width: 97%;
+    border: solid teal 0.4rem;
+    margin-bottom: 0.4rem;
+    opacity: 0.5;
+    margin: 1.5rem;
+    padding: 2rem;
+}
+.img {
+    display: flex;
+    float: left;
+    width: 97%;
+    height: 60vh;
+    border: solid teal 0.4rem;
+    opacity: 0.5;
+    margin: 1.5rem;
+    padding: 2rem;
+}
+footer {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+footer ul li {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-right: 3 rem;
+    margin-top: 1rem;
+}
+a:link {
     color: teal;
 }
-.links-content {
-    float: right;
-}
-#name-style {
-    font-family: 'Amatic SC', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
-}
-.links{
-    padding-top: 1.5rem;
-    margin-right: 2rem;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Lucida Sans Unicode', 'lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-.links ul li {
-    display: inline-block;
-    list-style-type: none;
-    margin-left: 25px;
-    text-transform: uppercase;
-}
-.hero {
-    height: 30rem;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../assets/img-coffee-laptop.png");
-    background-size: cover;
-    position: relative;
-}
-#subtitle-img {
-    position: absolute;
-    right: 1rem;
-    bottom: .5rem;
+a:hover {
     background-color: teal;
-    font-style: italic;
     color: white;
-    padding: 1rem;
-}
-h2 {
-    border-right: 5px solid black;
-    min-width: 15%;
-    text-align: center;
-    font-size: 3.75rem;
-    margin-right: .2rem;
-    margin-top: .2rem;
-    padding: 1rem;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    display: inline;
-    float:left
-}
-.about_me {
-    display: flex;
-    flex-direction: row;
-    flex: var(--flex-basis-left);
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-.align-left {
-    flex: var(--flex-basis-left);
-    text-align: right;
-    align-items: center;
-}
-.align-right {
-    border-left: teal solid 3px;
-}
-.about_me > p {
-    padding: 0 2rem;
-}
-.about_me h2 {
-    padding: 0 2rem;
-}
-div .work-left {
-    flex: right;
-}
-#work-parent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.img-box1 {
-    opacity: .7;
-    position: relative;
-    display: flex;
-    align-self: center;
-    border: solid 3px teal;
-    width: min-content;
-    height: auto;
-}
-.work-img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: teal;
-    font-style: italic;
-    color: darkgray;
-}
-#work-parent .img-box {
-    display: inline;
-    flex-wrap: wrap;
-    height: auto;
-    flex-basis: 40%;
-    opacity: 40%;
-    margin: .5rem;
-    padding: 0;
-    border: solid 3px teal;
+    border-radius: 0.8rem;
 }
 
-.work-left {
-    border-left: teal solid 3px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 10px 0;
-}
-.img-box1:hover {
-    opacity: 1;
-    cursor: pointer;
-}
-.img-title {
-    position: absolute;
-    bottom: 2rem;
-    background-color: teal;
-    color: darkgray;
-    padding: 1rem;
-    text-transform: uppercase;
-}
-.sub-one {
-    position: relative;
-}
-.sub-two {
-    position: relative;
-}
-.sub-three {
-    position: relative;
-}
-.sub-four {
-    position: relative;
-}
-.sub-one > .img-title1 {
-    position: absolute;
-    bottom: 2rem;
-    background-color: teal;
-    color: darkgray;
-    padding: 1rem;
-    text-transform: uppercase;
-}
-.sub-two > .img-title2 {
-    position: absolute;
-    bottom: 2rem;
-    background-color: teal;
-    color: darkgray;
-    padding: 1rem;
-    text-transform: uppercase;
-}
-.sub-three > .img-title3 {
-    position: absolute;
-    bottom: 2rem;
-    background-color: teal;
-    color: darkgray;
-    padding: 1rem;
-    text-transform: uppercase;
-}
-.sub-four > .img-title4 {
-    position: absolute;
-    bottom: 2rem;
-    background-color: teal;
-    color: darkgray;
-    padding: 1rem;
-    text-transform: uppercase;
-}
-.contact-me {
-    background-color: darkgray;
-    padding: 20px 0;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    flex: var(--flex-basis-left);
-    flex-wrap: wrap;
-    align-items: center;
-    height: 200px;
-}
 .links1 {
     text-align: right;
     margin-bottom: auto;
