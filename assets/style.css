@@ -74,6 +74,26 @@ nav ul li {
     margin-top: 2.7rem;
     margin-left: 2.5rem;
 }
+main section,
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: teal;
+    font-size: 3rem;
+}
+h2 {
+    border-right: 0.2rem solid teal;
+    min-width: 15%;
+    text-align: center;
+    font-size: 3.75rem;
+    margin-right: 0.2rem;
+    margin-top: 0.2rem;
+    padding: 1rem;
+    font-family: sans-serif inherit;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
 #parent {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +103,28 @@ nav ul li {
     display: inline;
     flex-wrap: wrap;
     flex-basis: 50%;
+}
+#project-1,
+#project-2,
+#project-3,
+#project-4,
+#project-5 {
+    position: relative;
+    color: teal;
+}
+#project-1 > #top-left-1,
+#project-2 > #top-left-2,
+#project-3 > #top-left-3,
+#project-4 > #top-left-4,
+#project-5 > #top-left-5 {
+    position: absolute;
+    top: 3rem;
+    background-color: lightgray;
+    width: fit-content;
+    font-size: 4rem;
+    padding-right: 0.9rem;
+    padding-left: 0.9rem;
+    padding-top: 0.9rem
 }
 a {
     text-decoration: underline;
