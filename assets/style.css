@@ -13,12 +13,12 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: url(../assets/img-coffee-laptop.png) no-repeat center center fixed;
+    background: url(../assets/water-on-car-glass-rain-drops-on-clear-window-and-blue-background-.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.6;
+    opacity: 0.3;
     z-index: -2;
 }
 header {
@@ -47,6 +47,32 @@ nav ul li {
     margin-right: 1.5rem;
     margin-top: 0,5rem;
     margin-bottom: 1rem;
+}
+#banner {
+    position: relative;
+    color: teal;
+    background-image: url("../assets/img-coffee-laptop.png");
+    height: 30rem;
+    width: 100%;
+    padding: 20px;
+}
+#banner > #subtitle {
+    float: right;
+    top: 10rem;
+    background-color: teal;
+    width: fit-content;
+    height: fit-content;
+    font-size: 4rem;
+    margin-top: 17rem;
+    padding-right: 0.2rem;
+    padding-left: 0.9rem;
+    padding-top: 0.9rem;
+}
+#banner img {
+    height: 19rem;
+    width: 19rem;
+    margin-top: 2.7rem;
+    margin-left: 2.5rem;
 }
 #parent {
     display: flex;
