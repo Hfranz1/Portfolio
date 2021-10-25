@@ -1,13 +1,35 @@
-:root {
-    --light-color: teal;
-    --dark-color: darkgray;
-    --flex-basis-left: 0 0 15%;
-    --flex-basis-right:0 0 85% ;
+*{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+html {
+    font-size: 62.5%;
 }
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: black
+   background-color: lightgray;
+   position: relative;
+}
+#styling {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(../assets/img-coffee-laptop.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.3;
+    z-index: -2;
+}
+#parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#parent .child {
+    display: inline;
+    flex-wrap: wrap;
+    flex-basis: 50%;
 }
 a {
     text-decoration: underline;

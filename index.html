@@ -1,105 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--style sheet links-->
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=devive-width, initial- scale=1.0">
-    <link rel="stylesheet" href="./assets/restyle.css">
-    <link rel="stylesheet" href="./assets/style.css">
     <title>Hannah Franz's Portfolio</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-
+    <div id="styling"></div>
     <header>
         <!--Header created for webpage-->
-        <h1 id="name-style">Hannah Franz</h1>
-        <nav class="links-content">
-            <!--Links-->
-            <a href="#about-me">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#content-me">Contact Me</a>
-            <a href="https://www.linkedin.com/in/hannah-franz-58047021b/">linkedin</a>
+        <h1>Hannah Franz</h1>
+        <nav>
+            <ul>
+                <!--Links-->
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#content-me">Contact Me</a></li>
+                <li><a href="https://www.linkedin.com/in/hannah-franz-58047021b/">linkedin</a></li>
             </ul>
         </nav>
     </header>
     <!--Cover letter and filler text-->
     <main>
-        <section class="hero" alt="large cover photo of a feild ">
+        <section id="banner">
+            <figure>
+                <img src="./assets/unnamed.jpg" alt="Head shot">
+            </figure>
             <div id="subtitle-img">"A new job is like a blank book and you are the author<br> -Unknown</div>
         </section>
-
-        <div class="main-box">
-            <!-- text about me-->
-            <section id="about">
-                <h2>About Me</h2>
-                <p>
-                    My name is Hannah Franz I am working towards becoming a softwear developer. I currently work in
-                    health care and am looking for a change in carrer. I have a background in coustomer service and
-                    working with a team to achieve a common goal.
-                </p>
-            </section>
-
-            <section id="work">
-                <h2>Work</h2>
-                <div>
-                    <article id="project-1">
-                        <a href="https://carlincb.github.io/Marvelisms/" target="_blank">
-                            <figure>
-                                <img id="img-1" src="./assets/Screen Shot 2021-10-23 at 7.24.55 PM.png"
-                                    alt="Marvelisms">
-                            </figure>
-                        </a>
-                        <div id="top-left-1">Marvelisms</div>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                My name is Hannah Franz I am working towards becoming a softwear developer. I currently work in
+                health care and am looking for a change in carrer. I have a background in coustomer service and
+                working with a team to achieve a common goal.
+            </p>
+        </section>
+        <section id="work">
+            <h2>Work</h2>
+            <div>
+                <article id="project-1">
+                    <a href="https://carlincb.github.io/Marvelisms/" target="_blank">
+                        <figure>
+                            <img id="img-1" src="./assets/Screen Shot 2021-10-23 at 7.24.55 PM.png" alt="Marvelisms">
+                        </figure>
+                    </a>
+                    <div id="top-left-1">Marvelisms</div>
+                </article>
+                <div id="parent">
+                    <article class="child" id="project-2">
+                        <div id="top-left-2">Work Day Scheduler</div>
+                        <figure>
+                            <a href=" https://hfranz1.github.io/Work-Day-Scheduler/" target="_blank">
+                                <img class="img" src="./assets/Screen Shot 2021-10-23 at 7.39.58 PM.png"
+                                    alt="Work Day Scheduler">
+                            </a>
+                        </figure>
                     </article>
-
-                    <div id="top-left-2">Work Day Scheduler</div>
-                    <figure>
-                        <a href=" https://hfranz1.github.io/Work-Day-Scheduler/" target="_blank">
-                            <img class="img" src="./assets/Screen Shot 2021-10-23 at 7.39.58 PM.png"
-                                alt="Work Day Scheduler">
-                        </a>
-                    </figure>
-
-                    <div id="work-parent">
-                        <span class="img-box img-one">
-                            <img scr="./assets/place_holder.png" alt="Image Holder" class="placeholderimage">
-                            <div id="img-title1">Sample img</div>
-                        </span>
-
-                        <span class="img-box img-two">
-                            <img scr="./assets/place_holder.png" alt="Image Holder" class="placeholderimage">
-                            <div id="img-title1">Sample img</div>
-                        </span>
-
-                        <span class="img-box img-three">
-                            <img scr="./assets/place_holder.png" alt="Image Holder" class="placeholderimage">
-                            <div id="img-title1">Sample img</div>
-                        </span>
-
-                        <span class="img-box img-four">
-                            <img scr="./assets/place_holder.png" alt="Image Holder" class="placeholderimage">
-                            <div id="img-title1">Sample img</div>
-                        </span>
-                    </div>
+                    <article class="child" id="project-3">
+                        <figure>
+                            <a href="" target="_blank"><img class="img" src="" alt=""></a>
+                        </figure>
+                        <div id="top-left-3">name</div>
+                    </article>
                 </div>
-            </section>
-            <section class="contact-me" id="contact-me">
-                <h2 class="align-left">Contact Me</h2>
-                <nav class="links1">
-                    <a href="github">Github</a>
-                    <a href="phonenumber">555-555-5555</a>
-                    <a href="email">hannahfranz25@gmail.com</a>
-
-                </nav>
-            </section>
-        </div>
+                <div id="parent">
+                    <article class="child" id="project-4">
+                        <figure>
+                            <a href="" target="_blank"><img class="img" src="" alt=""></a>
+                        </figure>
+                        <div id="top-left-4">name</div>
+                    </article>
+                    <article class="child" id="project-5">
+                        <figure>
+                            <a href="" target="_blank"><img class="img" src="" alt=""></a>
+                        </figure>
+                        <div id="top-left-5">name</div>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <ul>
+            <li><a href="mailto:hannahfranz25@gmail.com" target="_blank">hannahfranz25@gmail.com</a></li>
+            <li><a href="https://github.com/Hfranz1" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/hannah-franz-58047021b/" target="_blank">LinkedIn</a></li>
+        </ul>
     </footer>
-
 </body>
 
 </html>
