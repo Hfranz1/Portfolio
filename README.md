@@ -48,4 +48,4 @@ Website Screenshot:
 <img width="1250" alt="portfolio-project" src="https://user-images.githubusercontent.com/87962035/132734450-d2aad2a7-eb65-4af9-8e39-beaa59c8d882.png">
 Links:
 Github:https://github.com/Hfranz1/Portfolio
-<p>Deplayed Site:https://github.com/Hfranz1/Portfolio</p>
+<p>Deplayed Site:https://hfranz1.github.io/Portfolio/</p>
